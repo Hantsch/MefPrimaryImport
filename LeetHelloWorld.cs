@@ -2,8 +2,8 @@
 
 namespace MefInstancePicker
 {
-    //[Export(typeof(IHelloWorldMessage))]
-    //[PrimaryExport]
+    [Export(typeof(IHelloWorldMessage))]
+    [PrimaryExport]
     public class LeetHelloWorld : IHelloWorldMessage
     {
         public string SayHello()
